@@ -1,31 +1,52 @@
 # Student Performance Indicator
-## Life cycle of Machine learning Project
-### 1) Problem statement
-This project understands how the student’s performance (test scores) is affected by other variables such as Gender, Ethnicity, Parental level of education, Lunch and Test preparation course.
-### 2) Data Collection
-Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
-The data consists of 8 column and 1000 rows.
-### 3) Data Checks to perform
-Check Missing values
-Check Duplicates
-Check data type
-Check the number of unique values of each column
-Check statistics of data set
-Check various categories present in the different categorical column
-### 4) Exploratory data analysis
-Visualize the distribution of each variable using histograms and boxplots.
-Visualize the correlation between variables using a heatmap.
-### 5) Data Pre-Processing
-Convert categorical variables to numerical variables using one-hot encoding.
-Split data into training and testing sets.
-### 6) Model Training
-Train different models such as Linear Regression, Decision Tree Regression, Random Forest Regression, and Gradient Boosting Regression.
-Evaluate each model using Mean Squared Error (MSE).
-### 7) Choose best model
-Choose the model with the lowest MSE as the final model.
-Installation
-Clone the repository.
-Install the required packages using pip install -r requirements.txt.
-Usage
-Run python main.py to train and evaluate the models.
-Run python predict.py to make predictions using the final model.
+
+This project aims to analyze how student performance on tests is affected by various factors, such as gender, ethnicity, parental level of education, lunch, and test preparation courses.
+
+## Data Source
+
+The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977). It contains 1000 rows and 8 columns.
+
+## Data Cleaning
+
+Before analyzing the data, several checks were performed to ensure its quality:
+- Missing values were identified and either filled in or removed.
+- Duplicates were removed.
+- Data types were verified and corrected where necessary.
+- The number of unique values in each column was determined.
+- Descriptive statistics of the dataset were computed.
+- Various categories present in the categorical columns were identified.
+
+## Exploratory Data Analysis
+
+Several visualizations were created to explore the relationships between the different variables:
+- Histograms and box plots were used to visualize the distribution of each variable.
+- A heatmap was used to visualize the correlation between the variables.
+
+## Data Preprocessing
+
+Before modeling, the categorical variables were converted to numerical variables using one-hot encoding. The data was then split into training and testing sets.
+
+## Model Training
+
+Several regression models were trained and evaluated:
+- Linear Regression
+- Decision Tree Regression
+- Random Forest Regression
+- Gradient Boosting Regression
+
+The models were evaluated using Mean Squared Error (MSE).
+
+## Model Selection
+
+The model with the lowest MSE was selected as the final model.
+
+## Usage
+
+1. Clone the repository.
+2. Install the required packages using `pip install -r requirements.txt`.
+3. Run `python main.py` to train and evaluate the models.
+4. Run `python predict.py` to make predictions using the final model.
+
+## Contributors
+
+- Harish (harishrd321@gmail.com)
