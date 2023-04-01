@@ -46,7 +46,3 @@ The model with the lowest MSE was selected as the final model.
 2. Install the required packages using `pip install -r requirements.txt`.
 3. Run `python main.py` to train and evaluate the models.
 4. Run `python predict.py` to make predictions using the final model.
-
-## Contributors
-
-- Harish (harishrd321@gmail.com)
